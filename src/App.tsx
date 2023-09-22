@@ -34,6 +34,7 @@ function App() {
             placeholder="Search"
             name="search"
             ref={searchInputRef}
+            className="w-[280px]"
           />
           {searchValue && (
             <Button
